@@ -1,0 +1,80 @@
+.main_footer {
+  width: 100%;
+  position: relative;
+  padding: rem(65px) rem(10px);
+  background-color: #182a53;
+
+  .footer_container {
+    max-width: rem(350px);
+    width: 100%;
+    margin: auto;
+
+    p {
+      font-size: rem(16px);
+      text-align: center;
+    }
+  }
+}
+
+.privacy {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    font-size: 300 rem(16px)/1 "Open Sans";
+    display: inline-block;
+    position: relative;
+    margin-bottom: rem(30px);
+
+    &::before {
+      @include before_fig(100%,rem(1px),#ffffff);
+      bottom: 0;
+      left: 0;
+      transition: 0.3s;
+    }
+
+    &:hover::before {
+      width: 0;
+    }
+  }
+}
+
+.scroll_up {
+  width: rem(60px);
+  height: rem(60px);
+  position: absolute;
+  right: rem(40px);
+  top: rem(40px);
+  z-index: 9999;
+  border: rem(1px)solid #2aa0c0;
+  border-radius: 50%;
+  font-size: rem(20px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+
+  i {
+    position: absolute;
+    animation: arrowUp 2s infinite;
+  }
+}
+@keyframes arrowUp {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    transform: translateY(-4px);
+  }
+
+  40% {
+    transform: translateY(20px);
+  }
+
+  60% {
+    transform: translateY(10px);
+  }
+}

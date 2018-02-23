@@ -1,0 +1,97 @@
+@font-face {
+  /*Clear Sans*/
+  font-family: "Clear Sans";
+  src: url_css('fonts/ClearSans/Bold/clearsansbold.eot');
+  src: url_css('fonts/ClearSans/Bold/clearsansbold.eot#iefix') format('embedded-opentype'),
+  url_css('fonts/ClearSans/Bold/clearsansbold.woff2') format('woff2'),
+  url_css('fonts/ClearSans/Bold/clearsansbold.svg') format('svg'),
+  url_css('fonts/ClearSans/Bold/clearsansbold.ttf') format('truetype'),
+  url_css('fonts/ClearSans/Bold/clearsansbold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+// @font-face {
+//   /*Clear Sans thin*/
+//   font-family: "Clear Sans";
+//   src: url_css('fonts/ClearSans/thin/clearsansthin.eot');
+//   src: url_css('fonts/ClearSans/thin/clearsansthin.eot#iefix') format('embedded-opentype'),
+//   url_css('fonts/ClearSans/thin/clearsansthin.woff2') format('woff2'),
+//   url_css('fonts/ClearSans/thin/clearsansthin.svg') format('svg'),
+//   url_css('fonts/ClearSans/thin/clearsansthin.ttf') format('truetype'),
+//   url_css('fonts/ClearSans/thin/clearsansthin.woff') format('woff');
+//   font-weight: 700;
+//   font-style: normal;
+// }
+@font-face {
+  /*Open Sans light*/
+  font-family: "Open Sans";
+  src: url_css('fonts/OpenSans/light/opensanslight.eot');
+  src: url_css('fonts/OpenSans/light/opensanslight.eot#iefix') format('embedded-opentype'),
+  url_css('fonts/OpenSans/light/opensanslight.woff2') format('woff2'),
+  url_css('fonts/OpenSans/light/opensanslight.svg') format('svg'),
+  url_css('fonts/OpenSans/light/opensanslight.ttf') format('truetype'),
+  url_css('fonts/OpenSans/light/opensanslight.woff') format('woff');
+  font-weight:300;
+  font-style: normal;
+}
+@font-face {
+  /*Open Sans Semi Bold*/
+  font-family: "Open Sans";
+  src: url_css('fonts/OpenSans/semibold/opensanssemibold.eot');
+  src: url_css('fonts/OpenSans/semibold/opensanssemibold.eot#iefix') format('embedded-opentype'),
+  url_css('fonts/OpenSans/semibold/opensanssemibold.woff2') format('woff2'),
+  url_css('fonts/OpenSans/semibold/opensanssemibold.svg') format('svg'),
+  url_css('fonts/OpenSans/semibold/opensanssemibold.ttf') format('truetype'),
+  url_css('fonts/OpenSans/semibold/opensanssemibold.woff') format('woff');
+  font-weight:600;
+  font-style: normal;
+}
+@font-face {
+  /*relaway*/
+  font-family: "Raleway";
+  src: url_css('fonts/raleway/bold/bold.eot');
+  src: url_css('fonts/raleway/bold/bold.eot#iefix') format('embedded-opentype'),
+  url_css('fonts/raleway/bold/bold.woff2') format('woff2'),
+  url_css('fontsraleway/bold/bold.svg') format('svg'),
+  url_css('fonts/raleway/bold/bold.ttf') format('truetype'),
+  url_css('fonts/raleway/bold/bold.woff') format('woff');
+  font-weight:700;
+  font-style: normal;
+}
+// fontello
+
+
+@font-face {
+  font-family: 'fontello';
+  src: url_css('fonts/fontello/fontello.eot?8541141');
+  src: url_css('fonts/fontello/fontello.eot?8541141#iefix') format('embedded-opentype'),
+       url_css('fonts/fontello/fontello.woff2?8541141') format('woff2'),
+       url_css('fonts/fontello/fontello.woff?8541141') format('woff'),
+       url_css('fonts/fontello/fontello.ttf?8541141') format('truetype'),
+       url_css('fonts/fontello/fontello.svg?8541141#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"]:before, [class*=" icon-"]:before {
+ font-family: "fontello";
+ font-style: normal;
+ font-weight: normal;
+ speak: none;
+ display: inline-block;
+ text-decoration: inherit;
+ width: 1em;
+ margin-right: .2em;
+ text-align: center;
+ font-variant: normal;
+ text-transform: none;
+ line-height: 1em;
+ margin-left: .2em;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-contact_the_bank:before { content: '\e837'; } /* '' */
+.icon-integration:before { content: '\e838'; } /* '' */
+.icon-contact_us:before { content: '\e839'; } /* '' */
+.icon-right-arrow:before { content: '\e83b'; } /* '' */
+.icon-left-arrow:before { content: '\e83c'; } /* '' */

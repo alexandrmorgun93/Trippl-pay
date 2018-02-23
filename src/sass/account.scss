@@ -1,0 +1,95 @@
+.account {
+  width: 100%;
+  position: relative;
+  padding-bottom: rem(130px);
+
+  .account_title {
+    text-align: center;
+    color: #142b38;
+    font: 700 rem(40px)/1 "Clear Sans";
+    margin-bottom: rem(60px);
+  }
+
+  .account_content {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    counter-reset: count;
+  }
+}
+
+.account_elem {
+  max-width: rem(230px);
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0 rem(65px) rem(30px);
+
+  .account_elem_head {
+    width: 100%;
+    text-align: center;
+    margin-bottom: rem(40px);
+    position: relative;
+
+    span {
+      font-size: rem(100px);
+      color: #3f82f0;
+      position: relative;
+      display: block;
+      text-align: center;
+    }
+  }
+}
+
+.account_elem {
+  &:nth-child(2) {
+    .icon_count {
+      &::after {
+        right: rem(-50px);
+      }
+    }
+  }
+
+  &:nth-child(3) {
+    .icon_count {
+      &::after {
+        top: rem(-20px);
+        font-size: rem(118px);
+      }
+    }
+  }
+}
+
+.icon_count {
+  &::after {
+    counter-increment: count;
+    content: counter(count);
+    position: absolute;
+    display: block;
+    z-index: -1;
+    left: rem(30px);
+    top: rem(-35px);
+    opacity: 0.09;
+    color: #3f82f0;
+    font: 700 rem(149px)/1 "Raleway";
+  }
+}
+
+.account_elem_text {
+  width: 100%;
+  text-align: center;
+
+  h2 {
+    color: #3b3b3a;
+    font: 700 rem(20px)/1 "Clear Sans";
+    margin-bottom: rem(25px);
+  }
+
+  p {
+    color: #3b3b3a;
+    line-height: 1.3;
+  }
+}

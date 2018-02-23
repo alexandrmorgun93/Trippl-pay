@@ -1,0 +1,127 @@
+@media screen and (max-width:1180px) {
+  .slider_wrap {
+    .container {
+      max-width: rem(850px);
+
+      .slider {
+        padding: 0 rem(80px);
+      }
+    }
+  }
+
+  .slick-next {
+    right: 0;
+  }
+
+  .slick-prev {
+    left: 0;
+  }
+}
+@media screen and(max-width:850px) {
+  // account
+  .account {
+    .account_title {
+      font-size: rem(30px);
+    }
+  }
+}
+@media screen and(max-width:750px) {
+  // top section
+  .top_contet {
+    h2 {
+      font-size: rem(30px);
+    }
+  }
+  // payment
+  .payment {
+    .payment_content {
+      h2 {
+        font-size: rem(30px);
+      }
+    }
+  }
+}
+@media screen and (max-width:680px) {
+  .slider_wrap {
+    .container {
+      max-width: rem(500px);
+
+    }
+  }
+}
+  @media screen and(max-width:600px) {
+    // top section
+    .top_section {
+      height: rem(500px);
+    }
+
+    .top_contet {
+      h2 {
+        font-size: rem(20px);
+      }
+
+      p {
+        font-size: rem(18px);
+        line-height: 1.3;
+      }
+    }
+    // payment
+    .payment {
+      .payment_content {
+        h2 {
+          font-size: rem(20px);
+        }
+      }
+    }
+  }
+  @media screen and(max-width:400px) {
+    // top section
+    .top_contet {
+      h2 {
+        font-size: rem(17px);
+      }
+
+      p {
+        font-size: rem(15px);
+      }
+    }
+    // payment
+    .payment {
+      .payment_content {
+        h2 {
+          font-size: rem(17px);
+        }
+      }
+    }
+    // account
+    .account {
+      .account_title {
+        font-size: rem(18px);
+      }
+    }
+    // feadback
+    .feedback_elem {
+      padding: rem(40) rem(20px);
+      margin-bottom: rem(50px);
+
+      .form_field {
+        input {
+          margin: 0 0 rem(30px);
+        }
+      }
+    }
+    // footer
+    .main_footer {
+      .footer_container {
+        p {
+          font-size: rem(13px);
+        }
+      }
+    }
+
+    .privacy {
+      a {
+        font-size: rem(14px);
+      }
+    }
+  }

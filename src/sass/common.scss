@@ -1,0 +1,32 @@
+body {
+  color: #ffffff;
+  font: 300 rem(20px)/1 "Open Sans";
+}
+
+.container {
+  max-width: rem(1080px);
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.btn {
+  max-width: rem(270px);
+  width: 100%;
+  height: rem(50px);
+  box-shadow: rem(1px) rem(3px) rem(22px) rem(2px) rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  background-color:#124fb3;
+  color: #ffffff;
+  font: 600 rem(19px)/1 "Open Sans";
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  &:hover {
+    background-color:#3f82f0;
+  }
+}
